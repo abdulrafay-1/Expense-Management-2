@@ -14,3 +14,6 @@ button {
 input:checked {
     background-color: #6c63ff !important;
 }
+.card-container {
+    gap: 12px;
+}
