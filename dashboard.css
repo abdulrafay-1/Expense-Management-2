@@ -9,3 +9,7 @@ body {
 .nav-link {
     color: #1b1b1b !important;
 }
+
+.card-container {
+    gap: 12px;
+}
