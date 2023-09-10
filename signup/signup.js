@@ -117,7 +117,7 @@ function login() {
         alertbox.classList.remove("myalert");
         alertbox.firstElementChild.innerHTML = "Incorrect password";
 
-    } else if(!checkuser) {
+    } else if(checkuser != email) {
         alertbox.classList.remove("myalert");
         alertbox.firstElementChild.innerHTML = "User not found";
     }
